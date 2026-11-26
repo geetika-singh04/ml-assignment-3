@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "model": "AE_d16",
+      "latent_dim": 16,
+      "test_mse_clean": 0.016198212280869484,
+      "probe_val_acc": 0.3385999798774719,
+      "probe_wd": 0.0001,
+      "probe_test_acc": 0.343999981880188
+    },
+    {
+      "model": "AE_d128",
+      "latent_dim": 128,
+      "test_mse_clean": 0.004629055503755808,
+      "probe_val_acc": 0.3944000005722046,
+      "probe_wd": 0.01,
+      "probe_test_acc": 0.39989998936653137
+    },
+    {
+      "model": "AE_d1024",
+      "latent_dim": 1024,
+      "test_mse_clean": 0.0023265350610017776,
+      "probe_val_acc": 0.49959999322891235,
+      "probe_wd": 0.0001,
+      "probe_test_acc": 0.5036999583244324
+    },
+    {
+      "model": "DAE_d1024",
+      "latent_dim": 1024,
+      "test_mse_clean": 0.004194634035229683,
+      "probe_val_acc": 0.5239999890327454,
+      "probe_wd": 0.0001,
+      "probe_test_acc": 0.5271999835968018
+    },
+    {
+      "model": "random_enc_d1024",
+      "latent_dim": 1024,
+      "test_mse_clean": NaN,
+      "probe_val_acc": 0.47039997577667236,
+      "probe_wd": 0,
+      "probe_test_acc": 0.4690999984741211
+    },
+    {
+      "model": "raw_pixels",
+      "latent_dim": 3072,
+      "test_mse_clean": NaN,
+      "probe_val_acc": 0.3935999870300293,
+      "probe_wd": 0.01,
+      "probe_test_acc": 0.38449999690055847
+    }
+  ],
+  "spearman": 0.7999999999999999
+}

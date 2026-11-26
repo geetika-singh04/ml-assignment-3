@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "latent_dim": 16,
+      "params": 398995,
+      "val_mse": 0.016203565523028374,
+      "best_epoch": 29
+    },
+    {
+      "latent_dim": 128,
+      "params": 857859,
+      "val_mse": 0.00466562295332551,
+      "best_epoch": 29
+    },
+    {
+      "latent_dim": 1024,
+      "params": 4528771,
+      "val_mse": 0.0023465582635253668,
+      "best_epoch": 29
+    }
+  ],
+  "selected": 1024,
+  "selected_test_mse": 0.0023265350610017776
+}

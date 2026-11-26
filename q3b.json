@@ -1,0 +1,37 @@
+{
+  "table": [
+    {
+      "input": "clean image",
+      "clf_acc": 0.840499997138977,
+      "mse_vs_clean": 0.0
+    },
+    {
+      "input": "noisy image",
+      "clf_acc": 0.16589999198913574,
+      "mse_vs_clean": 0.03329867497086525
+    },
+    {
+      "input": "clean-AE recon(noisy)",
+      "clf_acc": 0.4039999842643738,
+      "mse_vs_clean": 0.006289614364504814
+    },
+    {
+      "input": "DAE recon(noisy)",
+      "clf_acc": 0.3845999836921692,
+      "mse_vs_clean": 0.004740159958600998
+    },
+    {
+      "input": "clean-AE recon(clean)",
+      "clf_acc": 0.5525000095367432,
+      "mse_vs_clean": 0.0023265350610017776
+    },
+    {
+      "input": "DAE recon(clean)",
+      "clf_acc": 0.41419997811317444,
+      "mse_vs_clean": 0.004194634035229683
+    }
+  ],
+  "recovery_fraction": 0.324192099071295,
+  "sigma": 0.2,
+  "selected_latent": 1024
+}
